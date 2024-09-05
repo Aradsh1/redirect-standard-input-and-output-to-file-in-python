@@ -2,7 +2,7 @@ import sys
 
 fin = open("./input.txt" , "rt")
 sys.stdin = fin
-
+print("Running...")
 while True:
     numbers = input("->").strip().split(" ")
     if numbers[0]=="add":
