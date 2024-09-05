@@ -1,8 +1,11 @@
 import sys
 
-fin = open("./input.txt" , "rt")
+fin = open("input.txt" , "rt")
 sys.stdin = fin
-print("Running...")
+
+f1 = open("output.txt", "wt")  
+sys.stdout = f1 
+
 while True:
     numbers = input("->").strip().split(" ")
     if numbers[0]=="add":
