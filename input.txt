@@ -1,0 +1,10 @@
+add 1 5
+mul 2 6
+div 12 6
+min 1 9
+min 12 6
+mul 1 8
+add 9 9
+div 81 9
+div 90 4
+min 2 1
